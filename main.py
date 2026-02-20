@@ -18,5 +18,6 @@ def add_numbers(a:float,b:float)->float:
 
 if __name__ == "__main__":
 
-    mcp.run(transport="streamable-http")
+    # mcp.run(transport="streamable-http")
+    mcp.run(transport="sse")
     # mcp.run()
