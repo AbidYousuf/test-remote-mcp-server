@@ -1,6 +1,6 @@
 from fastmcp import FastMCP
 import os
-import aiosqlite  # Changed: sqlite3 → aiosqlite
+import sqlite3  # Changed: sqlite3 → aiosqlite
 import tempfile
 import asyncio
 # Use temporary directory which should be writable
